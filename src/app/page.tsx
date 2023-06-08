@@ -1,5 +1,6 @@
 'use client';
 
+import About from '@/components/about';
 import Main from '@/components/main';
 import Navbar from '@/components/navbar';
 import Head from 'next/head';
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <Navbar/>
       <Main/>
+      <About/>
     </div>
   );
 }
